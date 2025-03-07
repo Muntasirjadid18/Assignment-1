@@ -31,17 +31,21 @@ padding-top: 15%;
 }
 
 h4{
-    color: azure;
+    color: rgba(230, 240, 240, 0.823);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
 }
 h1{
     color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
     margin: 20px;
     padding: 0  40px;
 }
 p{
-    color: beige;
-    padding-right: 40px;
-    padding-left: 40px;
+    color: rgba(230, 230, 219, 0.761);
+    padding-right: 23%;
+    padding-left: 23%;
 }
 
 button{
@@ -52,6 +56,6 @@ button{
     font-weight: 700;
     margin: 15px;
     border: none;
-    border-radius: 1ch;
+    border-radius: .5ch;
     padding: 13px;
 }
