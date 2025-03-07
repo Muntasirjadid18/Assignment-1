@@ -3,7 +3,10 @@
     padding: 0;
   
 }
-body {
+body{
+    overflow-x: hidden;
+}
+header {
  background-image: url("assets/picture/Rectangle 2.png");
 background-repeat: no-repeat;
 background-position: center;
@@ -58,4 +61,41 @@ button{
     border: none;
     border-radius: .5ch;
     padding: 13px;
+}
+.flex{
+   display: flex;
+}
+.about{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    margin: 20px;
+    padding: 0  40px;
+    text-align: center;
+}
+img{
+ padding-top: 30px;
+}
+
+.content h1{
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    padding-top: 60px ;
+    padding-right: 30px;
+}
+.content p{
+    color: rgba(53, 47, 47, 0.774);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    padding-right: 25px;
+    padding-bottom: 30px;
+}
+.content h3{
+    color: rgba(53, 47, 47, 0.774);
+    font-size: 20px;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-align: center;
 }
