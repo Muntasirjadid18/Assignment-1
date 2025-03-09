@@ -119,3 +119,15 @@ img{
 .icon2 i{
     padding-right: 40px;
 }
+.footer2 {
+  background-image: url("assets/picture/image2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  z-index: 10;
+}
+
